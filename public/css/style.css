@@ -1,0 +1,94 @@
+/* GLOBAL */
+body {
+    background-color: rgb(38, 38, 38);
+    font-family: Consolas, Monaco, monospace;
+    color: white;
+}
+
+.greenText{
+    background-color: rgba(73, 246, 38, 0.178);
+}
+
+/* ESPAÇAMENTO VERTICAL DO HEADER */
+header {
+    margin-top: 120px;
+}
+
+
+/* COR DOS TÍTULOS */
+h1, h2, h3, h4, h5, h6, b {
+    color: rgb(74, 246, 38);
+}
+
+
+/* ELEMENTOS TEXTUAIS */
+a {
+    color: #7cbbff;
+    text-decoration: none !important;
+}
+
+small {
+    font-size: small;
+}
+
+p {
+    margin-bottom: 3px;
+}
+
+
+/* LAYOUT DAS SEÇÕES */
+section, footer {
+    border-top: 1.5px dotted white;
+    padding-top: 2vh;
+}
+
+.container {
+    margin-bottom: 5vh;
+}
+
+ul {
+    padding: 0;
+}
+
+/* PROJETOS E FORMAÇÕES */
+.listaDeFormacoes, .listaDeProjetos {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.periodo {
+    color: rgb(216, 216, 216);
+    font-size: smaller;
+}
+
+.tecnologia {
+    text-align: center;
+    width: 30%;
+}
+
+.tecnologia img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+
+/* FOOTER */
+footer h5 {
+    margin-left: 15px;
+}
+
+.contato{
+    background-color: rgba(73, 246, 38, 0.178);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.contato:hover {
+    background: #49f626;
+    opacity: 0.75;
+    color: white
+}
