@@ -15,12 +15,8 @@
         <h1 class="center">Fabio Fonseca</h1>
         <h4>Software Developer Student</h4>
         <div class="greenText p-3">
-            <p>Sou um estudante em busca de aplicar meus conhecimentos no cenário profissional, acredito que a oportunidade de resolver desafios no contexto corporativo seja o proximo passo para me desenvolver de maneira mais profunda como programador. Além de meu repertório como desenvolvedor, possuo grade interesse em segurança da informação, especificamente, segurança ofensiva/ethical hacking. Minha curiosidade por cybersegurança se estende no sentido de buscar realmente entender como as tecnologias e suas abstrações sustentam o mundo digital desde de suas abstrações mais sutis como programar um formulário em uma aplicação web até as camadas mais profundas e como esse formulário é registrado e como uma interface de rede se comunica e por quais protocolos opera. </p>
+            <p>Sou um estudante de Desenvolvimento de Software e estou busco oportunidades profissionais para aplicar meus conhecimentos e aprimorar minhas habilidades como desenvolvedor. Além de meu repertório como programador, tenho grande interesse em cybersecurity, especialmente em entender como as tecnologias funcionam em suas camadas mais fundamentais. </p>
         </div><br>
-        <div class="greenText p-3">
-            <p>Pretendo, neste portfólio, apresentar meus projetos pessoais e acadêmicos, assim como minhas
-                qualificações profissionais.</p>
-        </div>
     </header>
 
     <section id="educacao">
@@ -32,8 +28,7 @@
                     <h4>FATEC - São José dos Campos</h4>
                     <b>Desenvolvimento de Software Multiplataforma - Tecnólogo</b>
                     <p class="periodo pl-3">Agosto de 2024 - Dezembro de 2026 (Previsto)</p>
-                    <p class="greenText p-3">Por meio do modelo de Project-based Learning, desenvolvemos
-                        uma solução de software em grupos através da metodologia ágil Scrum. Cada integrante assume um
+                    <p class="greenText p-3">Por meio do modelo de Project-Based Learning (PBL), participei do desenvolvimento de soluções de software em equipe, aplicando Scrum. Nesse cenário, cada integrante assume um
                         dos papéis da equipe (P.O, Master, Dev Team) e entrega, em cada sprint mensal, o produto de
                         maior valor possível para o cliente, que pode ser tanto os professores quanto uma empresa real
                         em estudos de case.<br>Com isso, desenvolvemos não somente intensa familiaridade e convivência
@@ -58,13 +53,23 @@
                         </h4>
                         <b>Agile Krakens - FATEC</b>
                         <p class="periodo pl-3">Setembro de 2024 - Novembro de 2024</p>
-                        <p class="greenText p-3">Atuei como Scrum Master e no backend do desenvolvimento de uma aplicação
+                        <p class="greenText p-3">Atuei como Scrum Master e no desenvolvimento do backend de uma aplicação
                             web de consulta, tratamento e interpretação de dados públicos da atuação dos vereadores do
                             último mandato de São José dos Campos.
                             Meu trabalho enquanto Scrum Master enquadra, principalmente:<br>
-                             - Revisão da Arquitetura de Software com o P.O através da enumeração de requisitos por User Stories (Product Backlog).><br>
+                             - Revisão da Arquitetura de Software com o P.O através da enumeração de requisitos por User Stories (Product Backlog).<br>
                              - Gerenciar cerimônias baseadas em metodologia ágil, com objetivo de garantir o MVP de cada sprint, alinhadamente com a capacidade/tempo do DevTeam.<br>
-                             - Diferentemente de um contexto corporativo, a atuação do Scrum Master nesse cenário acadêmico abrange não somente Engenharia de Software, mas também minha contribuição com código.
+                             - Diferentemente de um contexto corporativo, a atuação do Scrum Master nesse cenário acadêmico abrange não somente Engenharia de Software, mas também minha contribuição com código.<br>
+                            </p><br>
+
+                        <h6>Desafios encontrados:</h6>
+                        <p class="greenText p-3">
+                            Minha contribuição como desenvolvedor pode ser ilustrada por minha abordagem diante da necessidade de coletar dados públicos que são constantemente atualizados. Diante esse desafio, procurei tecnologias e recursos para coletar, tratar, inserir e exibir esses dados de forma totalmente dinâmica e automatizada. Portanto, para atingir este objetivo utilizei essas tecnologias:<br>
+                             - Web Scraping: BeautifulSoup e requests (Bibliotecas de Python) para coletar dados que seriam facilmente obtidos através de apenas uma requisição; Selenium para dados que necessitavam de navegação e interação com outros componentes para serem obtidos.<br>
+                             - Tratamento dos dados: durante a coleta dos dados, formatei os campos desejados utilizando Expressões Regulares (Regex)<br>
+                             - Inserção dos dados na minha Database: após o script de scraping ser executado, arquivos JSON eram gerados, e também, outro modulo realizava a inserção automaticamente dos dados no SGBD<br>
+                             - Exibição: a geração do site como um todo foi feita de forma totalmente dinâmica, através de rotas, a aplicação é montada com base no meu banco de dados. Portanto, com apenas um comando eu atingi o objetivo de atualizar não só a minha database inteira com as informações atuais da câmara dos vereadores da minha cidade, mas também exibi-las no site de forma totalmente automatizada.<br>
+
                             </p>
                     </div>
                 </li>
@@ -80,8 +85,7 @@
                     <li class="mb-2"><strong>Frameworks:</strong> Flask, Django, Node.js, React</li>
                     <li class="mb-2"><strong>Banco de dados:</strong> MongoDB, MySQL</li>
                     <li class="mb-2"><strong>Tecnologias:</strong> Git/GitHub, Docker, AWS</li>
-                    <li class="mb-2"><strong>Metodologias ágeis:</strong> Scrum</li>
-                    <li><strong>Hacking ético:</strong> Linux, Reconhecimento de Infraestrutura de redes, Pentest e Análise de vulnerabilidades em aplicações web.</li>
+                    <li class="mb-2"><strong>Cybersegurança:</strong> Linux, Reconhecimento de Infraestrutura de redes, Identificação de vulnerabilidades em aplicações web através de ferramentas automatizadas e manualmente.</li>
                 </ul>
             </div>
 
@@ -91,14 +95,11 @@
                 <p class="greenText p-3">Como já dito na seção sobre meu trabalho como Master, tenho uma vivência intensa
                     com o framework Scrum no desenvolvimento de software. Sei o papel de cada integrante da equipe
                     Scrum, como as tarefas são pensadas a partir das user stories, o processo de montagem do product
-                    backlog, as cerimônias e artefatos que promovem a comunicação e organização entre as partes, etc.
-                    Destaco minha leitura do excelente livro "Scrum e Agile em Projetos" de Fábio Cruz que tem me
-                    ajudado muito no aprendizado das metodologias ágeis.
-                </p>
+                    backlog, as cerimônias e artefatos que promovem a comunicação e organização entre as partes.
+                </p><br>
                 <h6>Sistemas Operacionais/Linux</h6>
                 <p class="greenText p-3">
-                    De modo geral, me interesso muito sobre os assuntos menos óbvios ou "pouco práticos" para o
-                    desenvolvedor médio, especialmente na área de sistemas operacionais e redes. Gosto de entender como sistemas funcionam em uma perspectiva de camadas (OSI model), Kernels e em quantas camadas de virtualização uma linguagem de programação opera, como um editor de texto executa comandos de sistema,
+                    Tenho especial interesse em tópicos avançados de sistemas operacionais e redes, que vão além do escopo comum de desenvolvimento de software. Gosto de entender como sistemas funcionam em uma perspectiva de Kernels e em quantas camadas de virtualização uma linguagem de programação opera, como um editor de texto executa comandos de sistema,
                     pipelines, paralelismo, hierarquias de memória, até os protocolos de comunicação que permitem a
                     internet existir, aplicações modernas em contâineres, plataformas em nuvem etc.
                     Acredito que esse conhecimento mais profundo amplia minha criatividade e controle sobre os meus
